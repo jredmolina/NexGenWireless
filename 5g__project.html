@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NexGenWireless | Projects</title>
     <!--=============== REMIXICONS ===============-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
 
@@ -42,21 +42,19 @@
                                 <a href="evtol__project.html" class="dropdown__link">e-VTOL Security</a>
                             </li>
                             <li>
-                                <a href="sdr__project.html" class="dropdown__link">SDR Security</a>
-                            </li>
-                            <li>
                                 <a href="satellite__project.html" class="dropdown__link">Satellite Network Security</a>
                             </li>
                             <li>
                                 <a href="edge__project.html" class="dropdown__link">Edge Network Security</a>
                             </li>
                             <li>
-                                <a href="analyzer__project.html" class="dropdown__link">Fieldfox Spectrum Analyzer</a>
-                            </li>
-                            <li>
-                                <a href="aiCar__project.html" class="dropdown__link">Self-Driving AI Car NVDIA Jetson</a>
+                                <a href="aiCar__project.html" class="dropdown__link">Self-Driving AI Car NVDIA
+                                    Jetson</a>
                             </li>
                         </ul>
+                    </li>
+                    <li class="nav__item">
+                        <a href="publications.html" class="nav__link">Publications</a>
                     </li>
                     <li class="nav__item">
                         <a href="sponsors.html" class="nav__link">Sponsors</a>
@@ -81,109 +79,196 @@
     <!--=============== MAIN ===============-->
     <section class="section">
         <h1 class="section__title">5G Network Security</h1>
-        <div class = "tabbed">
-            <div class="tab_content"> 
-                    <div class="proj_info">
-                        <div class="proj_img">
-                            <img src="assets/images/5G Security 1.png" alt="project__img" class="rounded_image">
+            <div class="tabbed">
+                <input type="radio" name="content" id="tab1" checked>
+                <input type="radio" name="content" id="tab2">
+                <input type="radio" name="content" id="tab3">
+                <nav>
+                    <ul>
+                        <li class="tab1"><label for="tab1"><span>Project Overview</span></label></li>
+                        <li class="tab2"><label for="tab2"><span>Explore the Research</span></label></li>
+                    </ul>
+                </nav>
+                <div class="tab__content">
+                    <div class="tab1">
+                        <h3 class="tab_title">Project Overview</h3>
+                        <div class="proj_info">
+                            <div class="proj_img">
+                                <img src="assets/images/5G Security 1.png" alt="project__img" class="rounded_image">
+                            </div>
+                            <div class="proj_desc">
+                                <p>
+                                    5G has designed in security controls to address many of the threats faced in today's
+                                    4G/3G/2G networks.
+                                    These controls include new mutual authentication capabilities, enhanced subscriber
+                                    identity
+                                    protection,
+                                    and additional security mechanisms. 5G offers the mobile industry an unprecedented
+                                    opportunity to uplift
+                                    network and service security levels. 5G provides preventative measures to limit the
+                                    impact
+                                    of known threats,
+                                    but adopting new network technologies introduces potential new threats for the
+                                    industry to
+                                    manage.
+                                </p>
+                            </div>
                         </div>
-                        <div class="proj_desc"> 
+                        <div class="proj_info">
+                            <div class="proj_desc">
+                                <p>
+                                    The PolySec Lab is looking at the security of the data, so phone and application
+                                    usage is
+                                    secured from the hackers.
+                                </p>
+                            </div>
+                            <div class="proj_img">
+                                <img src="assets/images/5G Security 2.png" alt="project__img" class="rounded_image">
+                            </div>
+                        </div>
+                        <div class="proj_info">
+                            <div class="proj_img">
+                                <img src="assets/images/5G Security 3.png" alt="project__img" class="rounded_image">
+                            </div>
+                            <div class="proj_img">
+                                <img src="assets/images/5G Security 4.png" alt="project__img" class="rounded_image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab2">
+                        <h3 class="tab_title">Explore the Research</h3>
+                        <div class="proj_research">
                             <p>
-                                5G has designed in security controls to address many of the threats faced in today's 4G/3G/2G networks. 
-                                These controls include new mutual authentication capabilities, enhanced subscriber identity protection,
-                                and additional security mechanisms. 5G offers the mobile industry an unprecedented opportunity to uplift
-                                network and service security levels. 5G provides preventative measures to limit the impact of known threats, 
-                                but adopting new network technologies introduces potential new threats for the industry to manage.
+                                <b>Experimental Evaluation of 5G Network Fuzzers Using a Real Private 5G Network
+                                    Deployment</b>
+                                </br>
+                                <i>A Research Study on Cybersecurity Testing in Real-World 5G Environments</i> </br>
+                                Abstract: Network fuzzing is a widely adopted technique for identifying vulnerabilities
+                                within
+                                communication protocols, particularly in emerging technologies such as 5G networks.
+                                Although
+                                various fuzzing tools, including 5GReplay, Frizzer, and Fuzzowski, have traditionally
+                                been
+                                evaluated using simulated environments, their effectiveness and reliability in realistic
+                                settings remain uncertain.
+                                This research addresses this gap by experimentally evaluating the performance of these
+                                three
+                                prominent 5G fuzzers against a real-world private 5G network deployment. Our study
+                                highlights
+                                critical discrepancies between simulated environments and actual deployments, which
+                                introduce
+                                unique system-specific constraints, network complexities, and protocol behaviors not
+                                replicated
+                                in simulated scenarios. Through rigorous experimentation, we demonstrate that all three
+                                fuzzers
+                                exhibit diminished performance in real-world conditions, primarily due to their reliance
+                                on
+                                simplified assumptions inherent in simulation frameworks. These findings underscore the
+                                necessity of validating network fuzzers in realistic environments, thus informing the
+                                design
+                                and
+                                optimization of future fuzz testing methodologies and tools explicitly tailored for
+                                practical 5G
+                                network deployments.
+                            </p>
+                        </div>
+                        <div class="proj_research">
+                            <p>
+                                <b>Network-Level Penetration Testing and Network Protocol Fuzzing in a Real-World
+                                    Private 5G
+                                    Network Deployment: Methodologies, Findings, and Performance Evaluation</b>
+                                </br>
+                                <i>A Research Study on 5G Network Security: Methodologies, Findings, and Performance
+                                    Evaluation
+                                </i> </br>
+                                Abstract: This paper explores network-level penetration testing and protocol fuzzing
+                                applied
+                                to
+                                a real-world private 5G network deployment. It investigates critical vulnerabilities and
+                                protocol anomalies across UE, ORAN, DU, CU, and 5G Core Network (5GC) components.
+                                Findings
+                                include detailed vulnerability characterization, real-world impact scenarios, and
+                                comprehensive
+                                performance metrics. Recommendations for enhancing private 5G network security based on
+                                empirical results are provided.
                             </p>
                         </div>
                     </div>
-                    <div class="proj_info">
-                        <div class="proj_desc"> 
-                            <p>
-                                 The PolySec Lab is looking at the security of the data, so phone and application usage is secured from the hackers. 
-                            </p>
-                        </div>
-                        <div class="proj_img">
-                            <img src="assets/images/5G Security 2.png" alt="project__img" class="rounded_image">
-                        </div>
+                </div>
+
+            </div>
+        </section>
+        <!--=============== FOOTER ===============-->
+        <footer class="footer" style="background-color: #F8F8F8;">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        <img src="assets/images/Logo.png" alt=""> CPPNEXGENWIRELESS
+                    </a>
+                    <p class="footer__description">
+                        Securing the <br>
+                        Next Generation <br>
+                        of Wireless Technology
+                    </p>
+                </div>
+                <div class="footer__data grid">
+                    <div>
+                        <h3 class="footer__title">Pages</h3>
+                        <ul class="footer__links">
+                            <li>
+                                <a href="index.html" class="footer__link">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html" class="footer__link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="publications.html" class="footer__link">Publications</a>
+                            </li>
+                            <li>
+                                <a href="sponsors.html" class="footer__link">Sponsors</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="footer__link">Contact Us</a>
+                            </li>
+
+                        </ul>
+
                     </div>
-            </div>
-        </div>
-    </section>
-    <!--=============== FOOTER ===============-->
-    <footer class="footer" style="background-color: #F8F8F8;">
-        <div class="footer__container container grid">
-            <div>
-                <a href="#" class="footer__logo">
-                    <img src="assets/images/Logo.png" alt=""> CPPNEXGENWIRELESS
-                </a>
-                <p class="footer__description">
-                    Securing the <br>
-                    Next Generation <br>
-                    of Wireless Technology
-                </p>
-            </div>
-            <div class="footer__data grid">
-                <div>
-                    <h3 class="footer__title">Pages</h3>
-                    <ul class="footer__links">
-                        <li>
-                            <a href="index.html" class="footer__link">Home</a>
-                        </li>
-                        <li>
-                            <a href="about.html" class="footer__link">About Us</a>
-                        </li>
-                        <li>
-                            <a href="sponsors.html" class="footer__link">Sponsors</a>
-                        </li>
-                        <li>
-                            <a href="contact.html" class="footer__link">Contact Us</a>
-                        </li>
+                    <div>
+                        <h3 class="footer__title">Projects</h3>
+                        <ul class="footer__links">
+                            <li>
+                                <a href="5g__project.html" class="footer__link">5G Network Security</a>
+                            </li>
+                            <li>
+                                <a href="uav__project.html" class="footer__link">UAV & Drone Security</a>
+                            </li>
+                            <li>
+                                <a href="evtol__project.html" class="footer__link">e-VTOL Security</a>
+                            </li>
+                            <li>
+                                <a href="satellite__project.html" class="footer__link">Satellite Network Security</a>
+                            </li>
+                            <li>
+                                <a href="edge__project.html" class="footer__link">Edge Network Security</a>
+                            </li>
+                            <li>
+                                <a href="aiCar__project.html" class="footer__link">Self-Driving AI Car NVDIA Jetson</a>
+                            </li>
+                        </ul>
 
-                    </ul>
+                    </div>
 
                 </div>
-                <div>
-                    <h3 class="footer__title">Projects</h3>
-                    <ul class="footer__links">
-                        <li>
-                            <a href="5g__project.html" class="footer__link">5G Network Security</a>
-                        </li>
-                        <li>
-                            <a href="uav__project.html" class="footer__link">UAV & Drone Security</a>
-                        </li>
-                        <li>
-                            <a href="evtol__project.html" class="footer__link">e-VTOL Security</a>
-                        </li>
-                        <li>
-                            <a href="sdr__project.html" class="footer__link">SDR Security</a>
-                        </li>
-                        <li>
-                            <a href="satellite__project.html" class="footer__link">Satellite Network Security</a>
-                        </li>
-                        <li>
-                            <a href="edge__project.html" class="footer__link">Edge Network Security</a>
-                        </li>
-                        <li>
-                            <a href="analyzer__project.html" class="footer__link">Fieldfox Spectrum Analyzer</a>
-                        </li>
-                        <li>
-                            <a href="aiCar__project.html" class="footer__link">Self-Driving AI Car NVDIA Jetson</a>
-                        </li>
-                    </ul>
-
-                </div>
-
+                <span class="footer__copy"></span>
             </div>
-            <span class="footer__copy"></span>
-        </div>
-        <span class="footer__copy">
-            &#169; 2023 Copyright CPPNEXGENWIRELESS
-        </span>
-    </footer>
+            <span class="footer__copy">
+                &#169; 2023 Copyright CPPNEXGENWIRELESS
+            </span>
+        </footer>
 
-    <!--=============== MAIN JS ===============-->
-    <script src="assets/js/main.js"></script>
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
 </body>
 
 </html>
